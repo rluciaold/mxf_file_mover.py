@@ -4,6 +4,13 @@ import os, shutil
 ### a newly created "newscratch" folder. Can be run multiple times, will not create empty folders and will move .MXF files
 ### into a new folder numbered accordingly (ex: newscratch2 if newscratch1 is taken.)
 
+######
+## to do:
+## add userinput for folder name?
+## add userinput for filetype to move
+## add compat for python 2
+## make this executable? how do you even do that
+
 def mxf_mover(x):
 	foldernumber = x
 	folderprefix = "newscratch"
